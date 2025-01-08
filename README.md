@@ -46,9 +46,13 @@ Note: db is no longer being hosted on server - need to host locally.
 Connect to the psql database (SQLALCHEMY_DATABASE_URI in application.py).
 
 Username: postgres
+
 Password: password
+
 Address/Host: localhost
+
 Port: 5432
+
 Database Name: smartkart
 
 
