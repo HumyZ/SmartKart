@@ -1,0 +1,780 @@
+
+*{
+  font-family: montserrat, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #666;
+}
+
+nav{
+  display: flex;
+  min-height: 5vh;
+  background: rgb(228, 168, 17);
+  color: white;
+  width: auto;
+  height: 50px;
+  padding: 25px;
+  
+}
+nav h1{
+  font-size: 80px;
+  display: flex;
+  font-weight: bold;
+  width: 50%;
+  align-items: center;
+  margin-top: 1.5%;
+  margin-left: 4%;
+  float: left;
+  
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.login-form {
+  display: block;
+  position: relative ;
+  margin: 0 auto; 
+  width:400px;
+
+}
+
+.login-form:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-color: rgb(228, 168, 17);
+}
+
+.login-form .form-inner {
+  position: relative;
+  display: block;
+  background-color: #FFF;
+  padding: 30px;
+  z-index: 2;
+
+}
+
+.login-form .form-inner h2 {
+  color: #666;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.login-form .form-inner .form-group{
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+
+}
+
+.login-form .form-inner .form-group label{
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+  align-items: left;
+}
+
+.login-form .form-inner .form-group:focus-within label{
+  color: #fe4880;
+}
+
+.login-form .form-inner .form-group input{
+  display: block;
+  width: 100%;
+ padding: 10px 15px;
+ background-color: #F8f8f8;
+ border-radius: 8px;
+ transition: 0.4s;
+}
+
+.login-form .form-inner .form-group input:focus{
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.login-form .form-inner input[type="submit"], 
+.welcome button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: rgb(228, 168, 17) ;
+  background-size: 200%;
+  background-position: 0% ;
+  transition: 0.4s;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.login-form .form-inner input[type="submit"]:hover, 
+.welcome button:hover{
+  background-position: 100% 0%;
+}
+
+
+input, button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+} 
+
+.font-link {
+  font-family: 'Montserrat';
+}
+
+.bottom-image {
+  display: flex;
+  left: 5pc;
+  top: 0pc;
+  max-width: 100%;
+  height: auto;
+  width: 20%;
+  z-index: -1;
+}
+
+.Signup .bottom-image {
+
+  left: 5pc;
+  margin-top: -20%;
+  max-width: 100%;
+  height: auto;
+  width: 20%;
+  z-index: -1;
+}
+.top-image {
+  width: 20%;
+  display: flex;
+  position: absolute;
+  margin-left: 80%;
+  top: 55%;
+  z-index: 1;
+  right: 2%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+
+
+.Home-block{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  background-image: url(./components/images/grocery_aisle.png) ;
+  background-position: 100% 50%;
+  margin-right: 5px;
+  padding: 20px;
+  height: 25%;
+  color: black;
+  
+}
+
+.tagline{
+color: #080003;
+opacity: 1;
+font-size: 50px;
+width: 80%;
+text-align: left;
+}
+
+.form-postal-code {
+  display:flex;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.form-postal-code label  {
+  font-weight: bold;
+  font-size:small;
+  margin-right: 1%;
+
+
+}
+
+.form-postal-code input  {
+
+  background-color: rgb(224, 219, 219);
+  box-shadow: #666;
+  border-radius: 8px;
+}
+ p{
+   font-size: 40px;
+   padding: 25px;
+ }
+
+ h4{
+   font-size: 30px;
+   display: flex;
+   position: absolute;
+   width:100%;
+   text-align: center;
+   margin-left: 2%;
+   margin-bottom: 40%;
+ }
+
+ .Home .bottom-image{
+  display: flex;
+  width: 200px;
+  position: fixed;
+  left: 5pc;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  z-index: -1;
+
+ }
+
+ .itemsbar {
+
+  background-color: rgb(253, 253, 253);
+  display: inline-block;
+  padding: 25px;
+
+ }
+
+ .itemsbutton {
+  background-color: rgba(228, 168, 17, 0.404);
+  height:100%;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  
+
+  
+ }
+
+
+ .form-item-search .searchbutton {
+  background-color: rgba(228, 168, 17, 0.404);
+  height:100%;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color:rgb(228, 168, 17) ;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  
+
+  
+ }
+
+.box {
+  height:300px;
+  width:100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  
+}
+
+.box2 { 
+  max-width: 15%;
+  max-height: 25%; 
+  text-align:center; 
+
+}
+
+.wrapper { 
+  position: relative;
+  display:flex; 
+  justify-content:space-between;
+  width: 100%; 
+  height:40%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+
+}
+
+.card-a{
+   height: 270px;
+   display: inline-block;
+   text-align: center;
+
+ } 
+
+ .card-a img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+
+ }
+
+
+.dropbtn {
+  background-color: rgba(228, 168, 17, 0.404);
+  height:100%;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: small;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(228, 168, 17, 0.404);
+
+}
+
+.form-item-search {
+
+  display:inline-block;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+
+}
+
+.form-item-search label  {
+  font-weight: bold;
+ 
+}
+
+.form-item-search input  {
+
+  background-color: rgb(224, 219, 219);
+  box-shadow: #666;
+  border-radius: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.fruits  {
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.beverages  {
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dairy  {
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.household  {
+  width: 80%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.meat  {
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.walking  {
+  width: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bicycle  {
+  width: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 15%;
+
+}
+
+.car  {
+  width: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+.comingSoon  {
+  text-align: center;
+  font-size: 500%;
+  padding: 20% 0%;
+}
+
+.cart {
+  width: 20%;
+  cursor: pointer;
+}
+
+
+form .categories{
+  display: block;
+  position: relative ;
+  margin: 0 auto; 
+  width:400px;
+
+}
+form:before .categories{
+ background-color: #fe4880;
+}
+
+form:after .categories {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-color: rgb(228, 17, 147);
+}
+
+.pickup_methods {
+  margin-top: 10%;
+  display: flex;
+  margin-left: 10%;
+}
+
+.itemsContainer{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  grid-gap: 50px;
+  height: 100%;
+}
+
+
+.item_image_tag {
+  background-color: white;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.items-link {
+  background-color: white;
+  border: 2px solid rgb(219, 189, 111);
+  padding: 20px 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  height:200px;
+  width:200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset;
+  
+
+}
+.item_label {
+   font-size: large;
+   margin-top: 5%;
+   color: #080003;
+   display: block;
+
+
+   
+
+
+}
+
+
+
+/* @src/components/Modal.module.css */
+
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  width: 350px;
+  height: 250px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalHeader {
+  height: 50px;
+  background: white;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.heading {
+  margin: 0;
+  padding: 10px;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: #2c3e50;
+  background: rgb(228, 168, 17);
+  transition: all 0.25s ease;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-self: flex-end;
+  margin-top: -7px;
+  margin-right: -7px;
+}
+
+.closeBtn:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  transform: translate(-4px, 4px);
+}
+
+.deleteBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background: #ff3e4e;
+  transition: all 0.25s ease;
+}
+
+.deleteBtn:hover {
+  box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
+  transform: translateY(-5px);
+  background: #ff3e4e;
+}
+
+.addBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color:white;
+  background: rgb(228, 168, 17) ;
+  transition: all 0.25s ease;
+}
+
+.cancelBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: whitesmoke;
+}
+
+.primaryBtn {
+  margin: 20px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: #185adb;
+  transition: all 0.25s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+
+
+.itemNumber{
+  display: block;
+  width: 20%;
+ padding: 10px 15px;
+ background-color: #F8f8f8;
+ border-radius: 8px;
+ transition: 0.4s;
+
+}
+
+.receipt {
+  background-color: rgb(250, 237, 181);
+  border: 5px solid rgb(219, 189, 111);
+  padding: 20px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  height:500px;
+  width:350px;
+  border-radius: 8px;
+
+}
+
+.receiptContainer {
+  display: grid;
+  grid-template-columns: auto  auto auto;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  grid-gap: 50px;
+
+}
+
+.logos {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto  auto auto;
+  grid-gap: 10px;
+  top: 70%;
+  right: 20%;
+}
+
+.grocery_store_logo {
+  border-radius: 50%;
+  width: 50%;
+  position: relative;
+  border-color: #080003;
+  margin-left: 10%;
+
+
+}
+
+table {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  border: 1px solid rgb(219, 189, 111); ;
+}
+
+.receipt label {
+  font-size: large;
+  font-weight: 300;
+}
+
+.receipt .receipt_details {
+  font-size:medium;
+  text-align:left;
+  display: block;
+}
+.receipt .total_cost {
+  font-size:medium;
+  font-weight: bold;
+  text-align:left;
+  float:left;
+}

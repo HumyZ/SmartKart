@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7a3d3d17.css",
+    "main.js": "./static/js/main.8b4413a5.js",
+    "static/js/787.0cf47afc.chunk.js": "./static/js/787.0cf47afc.chunk.js",
+    "static/media/Meat.jpg": "./static/media/Meat.81fc854ce56084fcaa44.jpg",
+    "static/media/beverages.png": "./static/media/beverages.7afb3304f626bd41a7a4.png",
+    "static/media/longos_flyer1.png": "./static/media/longos_flyer1.95b22eead1f4c4d7526f.png",
+    "static/media/grocery_cart.png": "./static/media/grocery_cart.353da43b8a9a3a5a19b9.png",
+    "static/media/longos_flyer2.png": "./static/media/longos_flyer2.fbfee8b77744f4b35ed5.png",
+    "static/media/zehrs_flyer1.png": "./static/media/zehrs_flyer1.a19cf10808458f0472d2.png",
+    "static/media/nofrills_flyer2.png": "./static/media/nofrills_flyer2.ac9b1f7c59888628edb1.png",
+    "static/media/nofrills_flyer1.png": "./static/media/nofrills_flyer1.1b5fba81ad354f0114cc.png",
+    "static/media/grocery_aisle.png": "./static/media/grocery_aisle.df54fa707f8a33c5674d.png",
+    "static/media/zehrs_flyer2.png": "./static/media/zehrs_flyer2.7f519dc08a23ad478cba.png",
+    "static/media/Fruits.jpg": "./static/media/Fruits.38d1f73e967edb832ad0.jpg",
+    "static/media/household.png": "./static/media/household.60386b4d0e8603c9c446.png",
+    "static/media/Loblaws_logo-promo.jpeg": "./static/media/Loblaws_logo-promo.c0dfc794f7776ef4a2df.jpeg",
+    "static/media/bicycle.png": "./static/media/bicycle.333b542ba66ff8ef8dcc.png",
+    "static/media/cart.png": "./static/media/cart.ca22544917e0c0e1a11f.png",
+    "static/media/grocery_checklist.png": "./static/media/grocery_checklist.f54489847d2acc4beb4a.png",
+    "static/media/longos-logo.png": "./static/media/longos-logo.2c5c640c68d5288a0112.png",
+    "static/media/zehrz_logo.png": "./static/media/zehrz_logo.132c9e3712b59f57cb3a.png",
+    "static/media/nofrills_logo.svg": "./static/media/nofrills_logo.fd8f0a72cee3dabf3bf9c23954d33ac5.svg",
+    "static/media/walking.png": "./static/media/walking.cb3fbe5632598144b57f.png",
+    "static/media/car.png": "./static/media/car.29cd1bd4d056a318d997.png",
+    "static/media/Dairy.jpg": "./static/media/Dairy.680123eaecd88dfa5991.jpg",
+    "index.html": "./index.html",
+    "main.7a3d3d17.css.map": "./static/css/main.7a3d3d17.css.map",
+    "main.8b4413a5.js.map": "./static/js/main.8b4413a5.js.map",
+    "787.0cf47afc.chunk.js.map": "./static/js/787.0cf47afc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a3d3d17.css",
+    "static/js/main.8b4413a5.js"
+  ]
+}

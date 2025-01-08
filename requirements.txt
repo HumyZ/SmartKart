@@ -1,0 +1,9 @@
+flask
+Flask-User
+Flask-BabelEx
+flask-login
+email_validator
+psycopg2
+bcrypt
+python-google-places
+googlemaps
